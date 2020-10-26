@@ -1,16 +1,16 @@
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
-const forecast = require('./utils/forecast')
+const forecast = require('./src/utils/forecast')
 
 // express
 const app = express();
 const port = process.env.PORT || 3000
 
 // paths for express config
-const publicDirectoryPath = path.join(__dirname, '../public')
-const viewsPath = path.join(__dirname, '../templates/views')
-const partialsPath = path.join(__dirname, '../templates/partials')
+const publicDirectoryPath = path.join(__dirname, './public')
+const viewsPath = path.join(__dirname, './templates/views')
+const partialsPath = path.join(__dirname, './templates/partials')
 
 // set up handlebars engine views and location
 app.set('view engine', 'hbs')
