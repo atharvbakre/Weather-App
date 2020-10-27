@@ -1,2 +1,2 @@
-Weather application to get weather forecast of a given location
-https://shadow-weather-app.herokuapp.com/
+Weather application to get weather forecast of a given location.
+Visit at https://shadow-weather-app.herokuapp.com/
